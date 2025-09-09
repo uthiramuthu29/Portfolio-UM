@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--font-inter: "Inter", sans-serif;
+}
+
+main{
+  padding-top: 262px;
+}
+
+@media (max-width: 1024px){
+
+	main{
+  		padding-top: 125px;
+	}
+}
