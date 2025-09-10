@@ -6,12 +6,12 @@ import { PiMicrosoftTeamsLogoLight } from "react-icons/pi";
 
 
 const contactData = [
-    {icon : <IoIosMail size={28} />, link : "#"},
-    {icon : <FaLinkedin size={28} />, link : "#"},
-    {icon : <FaGithub size={28} />, link : "#"},
-    {icon : <GrInstagram size={28} />, link : "#"},
-    {icon : <ImWhatsapp size={28} />, link : "#"},
-    {icon : <PiMicrosoftTeamsLogoLight size={28} />, link : "#"}
+    {icon : <IoIosMail size={28} />, link : "mailto:uthiramuthusp29@gmail.com"},
+    {icon : <FaLinkedin size={28} />, link : "https://www.linkedin.com/in/s-p-uthira-muthu-6bb287197"},
+    {icon : <FaGithub size={28} />, link : "https://github.com/uthiramuthu29"},
+    {icon : <GrInstagram size={28} />, link : "https://www.instagram.com/_._.blood_pearl._._/"},
+    {icon : <ImWhatsapp size={28} />, link : "https://wa.me/9442152434"},
+    {icon : <PiMicrosoftTeamsLogoLight size={28} />, link : "https://teams.microsoft.com/l/chat/0/0?users=uthiramuthusp29@gmail.com"}
 ]
 
 export default function ContactLinks() {

@@ -1,7 +1,7 @@
 function BookCards({ bookimg }) {
   return (
     <div className="bookcards">
-      <img className="w-full h-[260px] lg:h-[360px]" src={bookimg} alt="" />
+      <img className="w-full h-[260px] lg:h-[360px]" src={bookimg} alt="Books" />
     </div>
   );
 }

@@ -5,7 +5,7 @@ function StackCards({ stackLogo, stackName, stackType }) {
         <img
           className="max-w-[60px] lg:max-w-[114px] lg:pt-[69px] lg:pb-[40px] lg:mx-auto"
           src={stackLogo}
-          alt=""
+          alt={stackName}
         />
         <p className="text-[#181818] dark:text-white text-[16px] lg:text-[20px] font-semibold flex justify-between items-center w-full">
           {stackName}

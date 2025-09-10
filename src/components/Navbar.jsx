@@ -3,7 +3,7 @@ import LogoLight from "../assets/img/Light Mode Images/Logo-Light.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FiSun, FiMoon } from "react-icons/fi";
-import dropdown from "../assets/img/dropdown.svg";
+import { FaAngleDown } from "react-icons/fa";
 
 import { HiHome, HiOutlineBriefcase } from "react-icons/hi2";
 import { CiUser } from "react-icons/ci";
@@ -52,9 +52,9 @@ export default function Navbar() {
             <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium pb-[16px]">
               <NavLink to="/contact">Contact</NavLink>
             </li>
-            <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium flex items-center group relative pb-[16px]">
+            <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium flex items-center gap-[4px] group relative pb-[16px] relative">
               More
-              <img className="max-w-[20px]" src={dropdown} alt="" />
+              <FaAngleDown size={14} className="absolute top-[6px] right-[-18px] "/>
               <ul className="sub-nav bg-[rgba(255,255,255,0.25)] dark:bg-[rgba(24,24,29,0.6)] absolute top-[40px] left-[-68px] rounded-b-[12px] w-[133px] px-[24px] py-[16px] invisible group-hover:visible">
                 <li className="mb-[16px] ">
                   <NavLink to="/books">Bookshelf</NavLink>
@@ -69,24 +69,23 @@ export default function Navbar() {
         <div className="social-nav">
           <ul className="flex gap-[24px]">
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/s-p-uthira-muthu-6bb287197" target="_blank">
                 <FaLinkedin className="w-[22px] h-[22px] text-[#5D5751] dark:text-[#C3BDB8]" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/_._.blood_pearl._._/" target="_blank">
                 <GrInstagram className="w-[22px] h-[22px]  text-[#5D5751] dark:text-[#C3BDB8]" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://github.com/uthiramuthu29" target="_blank">
                 <FaGithub className="w-[22px] h-[22px]  text-[#5D5751] dark:text-[#C3BDB8]" />
               </a>
             </li>
             <li>
               <button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                href="#"
               >
                 {theme === "dark" ? (
                   <FiSun className="w-[22px] h-[24px] text-[#C3BDB8] cursor-pointer" />

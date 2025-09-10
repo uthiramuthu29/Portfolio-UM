@@ -11,14 +11,16 @@ export default function Footer() {
     { text: "About", link: "/about" },
     { text: "Work", link: "/work" },
     { text: "Contact", link: "/contact" },
+    { text: "Tech Stack", link: "/stack" },
+    { text: "Bookshelf", link: "/contact" },
   ];
 
   const navLinksTwo = [
-    { text: "Email", link: "/" },
-    { text: "LinkedIn", link: "/" },
-    { text: "GitHub", link: "/" },
-    { text: "Whatsapp", link: "/" },
-    { text: "Instagram", link: "/" },
+    { text: "Email", link: "mailto:uthiramuthusp29@gmail.com" },
+    { text: "LinkedIn", link: "https://www.linkedin.com/in/s-p-uthira-muthu-6bb287197" },
+    { text: "GitHub", link: "https://github.com/uthiramuthu29" },
+    { text: "Whatsapp", link: "https://wa.me/9442152434" },
+    { text: "Instagram", link: "https://www.instagram.com/_._.blood_pearl._._/" },
   ];
 
   return (
@@ -26,7 +28,7 @@ export default function Footer() {
       <div className="footer border-t border-[rgba(0,0,0,0.1)] dark:border-t-[rgba(255,255,255,0.1)] pb-[108px] lg:pb-[42px] pt-[74px] ">
         <div className="grid grid-cols-1 lg:grid-cols-12">
           <div className="left flex flex-col col-span-1 mt-[32px] lg:mt-0 lg:col-span-4 order-2 lg:order-none">
-            <img className="max-w-[92px] mb-[16px] " src={theme === "dark" ? LogoDark : LogoLight} alt="" />
+            <img className="max-w-[92px] mb-[16px] " src={theme === "dark" ? LogoDark : LogoLight} alt="Logo" />
             <p className="text-[14px] text-[#181818] dark:text-[#808080] font-medium mb-[48px] lg:mb-0 ">Thanks for stopping by ッ</p>
             <p className="text-[14px] text-[#181818] dark:text-[#808080] font-medium mt-auto ">© 2025 Uthira Muthu. All Rights Reserved.</p>
           </div>
