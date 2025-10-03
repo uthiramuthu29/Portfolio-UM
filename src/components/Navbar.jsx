@@ -52,7 +52,7 @@ export default function Navbar() {
             <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium pb-[16px]">
               <NavLink to="/contact">Contact</NavLink>
             </li>
-            <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium flex items-center gap-[4px] group relative pb-[16px] relative">
+            <li className="text-[#181818] dark:text-[#C5C5C5] text-[16px] font-medium flex items-center gap-[4px] group relative pb-[16px]">
               More
               <FaAngleDown size={14} className="absolute top-[6px] right-[-18px] "/>
               <ul className="sub-nav bg-[rgba(255,255,255,0.25)] dark:bg-[rgba(24,24,29,0.6)] absolute top-[40px] left-[-68px] rounded-b-[12px] w-[133px] px-[24px] py-[16px] invisible group-hover:visible">
