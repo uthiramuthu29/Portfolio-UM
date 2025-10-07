@@ -13,7 +13,7 @@ export default function WorkCard({ src1, src2, title, description, linktext, hre
                 <img className='max-w-[70px] mb-[16px] ' src={src1} alt="Project Logo" />
                 <h3 className='text-[20px] lg:text-[32px] text-[#181818] dark:text-white font-extrabold mb-[16px] '>{title}</h3>
                 <p className='text-[15px] lg:text-[16px] text-[#808080] font-normal mb-[16px] '>{description}</p>
-                <a className='text-[18px] text-[#181818] dark:text-white font-medium flex items-center gap-[11px] lg:mt-auto' href={href}>{linktext} <img className='w-[18px] h-[12px]' src={theme === "dark" ? rightwhitearrow : rightblackarrow} alt="rightwhitearrow"/></a>
+                <a className='text-[18px] text-[#181818] dark:text-white font-medium flex items-center gap-[11px] lg:mt-auto' href={href} target='_blank' >{linktext} <img className='w-[18px] h-[12px]' src={theme === "dark" ? rightwhitearrow : rightblackarrow} alt="rightwhitearrow"/></a>
             </div>
             <div className="right hidden lg:flex items-center">
                 <img className='max-w-[457px]' src={src2} alt="Project Image" />
